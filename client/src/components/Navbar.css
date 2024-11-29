@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100% ;
+}
+
+.container {
+    max-width : 114rem ;
+    padding: 4.2rem 4.2rem ;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
